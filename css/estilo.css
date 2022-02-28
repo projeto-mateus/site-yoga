@@ -1,0 +1,67 @@
+.menu-full{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: gray;
+    padding-bottom: 1%;
+}
+.menu{
+    margin-top: 12px;
+    font-size: 24px;
+    
+}
+.yoda{
+    background-color:lightgrey;
+} 
+.yodacont{
+    width: 100%;
+    padding-left: var(--bs-gutter-x, 9.75rem);
+    padding-right: var(--bs-gutter-x, 9.75rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagens{
+    border-radius: 7% ;
+}
+.classico{
+   flex-shrink: 0;
+   width: 100%;
+   max-width: 100%;
+   padding-right: calc(var(--bs-gutter-x) * 0.5);
+   padding-left: calc(var(--bs-gutter-x) * 0.5);
+   margin-top: var(--bs-gutter-y);
+}
+.img-classico{
+    width: 100%;
+    border-radius: 7%;
+}
+.amor{
+    margin-top: 3%;
+}
+.pos-classico{
+    margin-top: 10%;
+}
+.text-classico{
+    flex: 0.0 auto;
+    width: 100%;
+}
+.contato{
+    background-color: gray;
+    margin-top: 2%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: var(--bs-gutter-x, 9.25rem);
+    padding-right: var(--bs-gutter-x, 9.25rem);
+    color: #ffff;
+}
+h2{
+    text-align: center;
+}
+a{
+    color:#ffff;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
